@@ -18,17 +18,17 @@ CommandLine::CommandLine(istream& in){
     string temp;
     while(splitArgString >> temp){
         if (strcmp(temp.c_str(), "&") == 0){
-            noAmpersand = false;
+            noAmpersand_var = false;
         } else {
-            myArgv.push_back();
+            myArgv.push_back(temp);
             argc++;
         }
     }
-    argv = (char*)calloc(argc, sizeof(char))
+    argv = new char*[myArgv.size()];
 
-    for (size_t i = 0; i < argc; i++){
+    for (int i; i < myArgv.size(); i++){
+        argv[i] = new char[myArgv[i].size()];
         strcpy(argv[i], myArgv[i].c_str());
-
     }
 }
 char* CommandLine::getCommand() const {
@@ -40,9 +40,18 @@ int CommandLine::getArgCount() const {
 char** CommandLine::getArgVector() const {
     return argv;
 }
+
+char* CommandLine::getArgVector(int i) const{
+	return argv[i];
+}
+
 bool CommandLine::noAmpersand() const {
     return noAmpersand_var;
 }
+
 CommandLine::~CommandLine(){
-    free(argv);
+    for (size_t i = 0; i < myArgv.size(); i++){
+        delete[] argv[i];
+    }
+    delete[] argv;
 }

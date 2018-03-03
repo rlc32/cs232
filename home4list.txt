@@ -1,0 +1,6 @@
+pwd
+invalid
+cd
+ls
+ps&
+exit
