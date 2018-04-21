@@ -1,0 +1,27 @@
+Script started on Wed 07 Mar 2018 03:17:03 PM EST
+rlc32@wall:~/cs232/homework04$ exit[2@scriptg++ CommandLine.cpp CommandLine.h ARShell.h ARShel
+ll.cpp Prompt.h Prompt.cpp Path.h Path.cpp main.cpp
+rlc32@wall:~/cs232/homework04$ a.out     ./a.out
+/home/rlc32/cs232/homework04/ARShell$ pwd
+/home/rlc32/cs232/homework04/ARShell
+/home/rlc32/cs232/homework04/ARShell$ ls&
+These aren't the commands you're looking for . . .
+Command not found
+/home/rlc32/cs232/homework04/ARShell$ cd /home/rlc32/cs232/
+/home/rlc32/cs232/ARShell$ ls
+README.md  a.out  c++example  home4list.txt  homework04  lab02	mystery
+
+/home/rlc32/cs232/ARShell$ ps &
+
+/home/rlc32/cs232/ARShell$ 
+/home/rlc32/cs232/ARShell$   PID TTY          TIME CMD
+ 7316 pts/11   00:00:00 bash
+ 7339 pts/11   00:00:00 a.out
+ 7343 pts/11   00:00:00 ps
+exit
+I'm afraid I can't do that, Dave.
+Just kidding, have a nice day!
+rlc32@wall:~/cs232/homework04$ exit
+exit
+
+Script done on Wed 07 Mar 2018 03:17:53 PM EST

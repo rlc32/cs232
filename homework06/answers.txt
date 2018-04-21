@@ -1,0 +1,2 @@
+1. The program does not run in the exact same way each time. this is because the semaphores are grabbed by first come first served and will change which threads get them each time the program is run.
+2. The thread with highest priority does not mean that the customer will always have first priority. It will have priority but other factors can lead to other threads still having priority. 

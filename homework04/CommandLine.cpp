@@ -1,5 +1,6 @@
 /* CommandLine.cpp defines the methods for CommandLine, a class to read a command-line.
- * Student Names: Russell Clousing, Alastair Van Maren
+ * Student Names: Russell Clousing Alastair Van Maren
+ * Written by Russell Clousing
  * Date: February 24, 2018.
  */
 #include "CommandLine.h"

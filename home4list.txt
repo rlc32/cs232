@@ -1,6 +1,6 @@
 pwd
 invalid
-cd
+cd /home/rlc32/cs232/
 ls
 ps&
 exit

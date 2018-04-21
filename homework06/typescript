@@ -1,0 +1,342 @@
+Script started on Sat 07 Apr 2018 02:56:08 PM EDT
+rlc32@aiken:~/cs232/homework06$ exit./bakeshopgcc bakeshop.c -o bakeshop -lpthread
+rlc32@aiken:~/cs232/homework06$ gcc bakeshop.c -o bakeshop -lpthreadrlc32@aiken:~/cs232/homework06$ exit[K./bakeshop
+
+----------Store is open and FRESH bread is baking----------
+
+Loaf 1 is FRESH out of the oven and ready to be sold.
+
+Customer 7 is waiting to enter the store.
+
+Customer 7 has entered the store.
+
+Customer 7 has a loaf of bread.
+
+Customer 7 is waiting to check out.
+
+Customer 8 is waiting to enter the store.
+
+Customer 8 has entered the store.
+
+Customer 0 is waiting to enter the store.
+
+Customer 9 is waiting to enter the store.
+
+Customer 9 has entered the store.
+
+Customer 0 has entered the store.
+
+Customer 1 is waiting to enter the store.
+
+Customer 1 has entered the store.
+
+Customer 6 is waiting to enter the store.
+
+Customer 2 is waiting to enter the store.
+
+Customer 5 is waiting to enter the store.
+
+Customer 3 is waiting to enter the store.
+
+Customer 4 is waiting to enter the store.
+
+Customer 7 paid for the loaf.
+
+Baker printed a recipt for customer 7.
+
+Customer 8 has a loaf of bread.
+
+Customer 8 is waiting to check out.
+
+Loaf 2 is FRESH out of the oven and ready to be sold.
+
+Customer 8 paid for the loaf.
+
+Baker printed a recipt for customer 8.
+
+Loaf 3 is FRESH out of the oven and ready to be sold.
+
+Customer 0 has a loaf of bread.
+
+Customer 0 is waiting to check out.
+
+Customer 0 paid for the loaf.
+
+Baker printed a recipt for customer 0.
+
+Loaf 4 is FRESH out of the oven and ready to be sold.
+
+Customer 7 has left the store.
+
+Customer 9 has a loaf of bread.
+
+Customer 6 has entered the store.
+
+Customer 9 is waiting to check out.
+
+Customer 9 paid for the loaf.
+
+Baker printed a recipt for customer 9.
+
+Loaf 5 is FRESH out of the oven and ready to be sold.
+
+Customer 1 has a loaf of bread.
+
+Customer 1 is waiting to check out.
+
+Customer 1 paid for the loaf.
+
+Baker printed a recipt for customer 1.
+
+Loaf 6 is FRESH out of the oven and ready to be sold.
+
+Customer 8 has left the store.
+
+Customer 2 has entered the store.
+
+Customer 6 has a loaf of bread.
+
+Customer 6 is waiting to check out.
+
+Customer 6 paid for the loaf.
+
+Baker printed a recipt for customer 6.
+
+Loaf 7 is FRESH out of the oven and ready to be sold.
+
+Customer 0 has left the store.
+
+Customer 1 has left the store.
+
+Customer 5 has entered the store.
+
+Customer 5 has a loaf of bread.
+
+Customer 5 is waiting to check out.
+
+Customer 3 has entered the store.
+
+Customer 5 paid for the loaf.
+
+Baker printed a recipt for customer 5.
+
+Loaf 8 is FRESH out of the oven and ready to be sold.
+
+Customer 6 has left the store.
+
+Customer 4 has entered the store.
+
+Customer 4 has a loaf of bread.
+
+Customer 4 is waiting to check out.
+
+Customer 4 paid for the loaf.
+
+Baker printed a recipt for customer 4.
+
+Loaf 9 is FRESH out of the oven and ready to be sold.
+
+Customer 3 has a loaf of bread.
+
+Customer 3 is waiting to check out.
+
+Customer 3 paid for the loaf.
+
+Baker printed a recipt for customer 3.
+
+Loaf 10 is FRESH out of the oven and ready to be sold.
+
+Customer 2 has a loaf of bread.
+
+---------All bread for today has been baked----------
+
+Customer 2 is waiting to check out.
+
+Customer 2 paid for the loaf.
+
+Baker printed a recipt for customer 2.
+
+--------All customers have checked out and gotten reciepts--------
+
+Customer 4 has left the store.
+
+Customer 5 has left the store.
+
+Customer 3 has left the store.
+
+Customer 9 has left the store.
+
+Customer 2 has left the store.
+
+rlc32@aiken:~/cs232/homework06$ ./bakeshop
+
+----------Store is open and FRESH bread is baking----------
+
+Loaf 1 is FRESH out of the oven and ready to be sold.
+
+Customer 2 is waiting to enter the store.
+
+Customer 2 has entered the store.
+
+Customer 2 has a loaf of bread.
+
+Customer 2 is waiting to check out.
+
+Customer 3 is waiting to enter the store.
+
+Customer 3 has entered the store.
+
+Customer 0 is waiting to enter the store.
+
+Customer 0 has entered the store.
+
+Customer 4 is waiting to enter the store.
+
+Customer 4 has entered the store.
+
+Customer 5 is waiting to enter the store.
+
+Customer 5 has entered the store.
+
+Customer 1 is waiting to enter the store.
+
+Customer 6 is waiting to enter the store.
+
+Customer 7 is waiting to enter the store.
+
+Customer 8 is waiting to enter the store.
+
+Customer 9 is waiting to enter the store.
+
+Customer 2 paid for the loaf.
+
+Baker printed a recipt for customer 2.
+
+Loaf 2 is FRESH out of the oven and ready to be sold.
+
+Customer 3 has a loaf of bread.
+
+Customer 3 is waiting to check out.
+
+Customer 3 paid for the loaf.
+
+Baker printed a recipt for customer 3.
+
+Loaf 3 is FRESH out of the oven and ready to be sold.
+
+Customer 4 has a loaf of bread.
+
+Customer 4 is waiting to check out.
+
+Customer 4 paid for the loaf.
+
+Baker printed a recipt for customer 4.
+
+Customer 2 has left the store.
+
+Loaf 4 is FRESH out of the oven and ready to be sold.
+
+Customer 0 has a loaf of bread.
+
+Customer 0 is waiting to check out.
+
+Customer 1 has entered the store.
+
+Customer 0 paid for the loaf.
+
+Baker printed a recipt for customer 0.
+
+Loaf 5 is FRESH out of the oven and ready to be sold.
+
+Customer 5 has a loaf of bread.
+
+Customer 5 is waiting to check out.
+
+Customer 5 paid for the loaf.
+
+Baker printed a recipt for customer 5.
+
+Loaf 6 is FRESH out of the oven and ready to be sold.
+
+Customer 3 has left the store.
+
+Customer 6 has entered the store.
+
+Customer 1 has a loaf of bread.
+
+Customer 1 is waiting to check out.
+
+Customer 1 paid for the loaf.
+
+Baker printed a recipt for customer 1.
+
+Loaf 7 is FRESH out of the oven and ready to be sold.
+
+Customer 4 has left the store.
+
+Customer 5 has left the store.
+
+Customer 7 has entered the store.
+
+Customer 6 has a loaf of bread.
+
+Customer 8 has entered the store.
+
+Customer 6 is waiting to check out.
+
+Customer 6 paid for the loaf.
+
+Baker printed a recipt for customer 6.
+
+Customer 1 has left the store.
+
+Customer 7 has a loaf of bread.
+
+Customer 6 is waiting to check out.
+
+Loaf 8 is FRESH out of the oven and ready to be sold.
+
+Customer 9 has entered the store.
+
+Customer 7 paid for the loaf.
+
+Baker printed a recipt for customer 7.
+
+Customer 8 has a loaf of bread.
+
+Loaf 9 is FRESH out of the oven and ready to be sold.
+
+Customer 8 is waiting to check out.
+
+Customer 8 paid for the loaf.
+
+Baker printed a recipt for customer 8.
+
+Loaf 10 is FRESH out of the oven and ready to be sold.
+
+Customer 0 has left the store.
+
+Customer 9 has a loaf of bread.
+
+Customer 9 is waiting to check out.
+
+---------All bread for today has been baked----------
+
+Customer 9 paid for the loaf.
+
+Baker printed a recipt for customer 9.
+
+--------All customers have checked out and gotten reciepts--------
+
+Customer 6 has left the store.
+
+Customer 8 has left the store.
+
+Customer 7 has left the store.
+
+Customer 9 has left the store.
+
+rlc32@aiken:~/cs232/homework06$ exit
+exit
+
+Script done on Sat 07 Apr 2018 02:57:16 PM EDT
